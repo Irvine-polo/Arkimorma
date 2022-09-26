@@ -1,0 +1,838 @@
+  
+body {
+    font-family: 'Poppins' , 'san-serif';
+    background-color: #fefefe;
+    color: #757575 ;
+
+}
+
+
+h1 {
+    font-size:3vw;
+}
+
+h2 {
+    font-size:2.5vw;
+}
+
+h3 {
+    font-size:2vw;
+}
+
+h4 {
+    font-size:1.6vw;
+}
+
+h5 {
+    font-size:1.3vw;
+}
+
+h6 {
+    font-size:1.2vw;
+}
+
+
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HOMEPAGE - CAROUSEL */
+#carousel-example-generic {
+    width: 100%;
+    margin-top: -20px;
+}
+
+#carousel-example-generic .carousel-inner .item img {
+    width: 100%;
+    height: 700px;
+}
+
+/* HOMEPAGE - CAROUSEL */
+
+
+
+/* HOMEPAGE - FEATURED CATEGORIES */
+.team h1,h4{
+    text-align: center;
+}
+
+/* HOMEPAGE - FEATURED CATEGORIES */
+
+
+
+
+/* HOMEPAGE - FEATURED PRODUCTS */
+/* .featured-products {
+    margin-top: 50px;
+    margin-bottom: 50px; */
+/* }
+
+.featured-products .item img {
+    width: 100%; */
+/* } */
+/* HOMEPAGE - FEATURED PRODUCTS */
+
+
+
+
+/* HOMEPAGE - HEADER TITLES */
+ .header-title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+} 
+.HomepageAbout{
+    position: relative;
+    width: 100%;
+    
+}
+
+.HomepageAbout .image{
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+
+/* HOMEPAGE - HEADER TITLES */
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #111;
+    color: #fff;
+    font-size: 3px;
+    text-align: center;
+    /* padding: 20px 20px; */
+}
+/* FOOTER */
+
+
+
+
+
+
+/* SELLER LOGIN PAGE */
+
+
+.seller-login {
+    margin-top: 10px;
+    width: 100%;
+    background: url(../images/Seller_Login.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.seller-login input[type=text], .user-login input[type=password] {
+    border: 1px solid rgb(37, 136, 230);
+}
+
+.seller-login .forgot-password a {
+    color: #444;
+}
+
+.seller-login .forgot-password a:hover {
+    color: #000;
+}
+
+
+.seller-login a {
+    text-decoration: none;
+}
+
+
+.seller-login img {
+    width: 100%;
+    padding-top: 100px;
+
+}
+
+
+.seller-login .form {
+    color: #444;
+    /* background-color: #000; */
+    border-radius: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 2vw;
+}
+/* SELLER LOGIN PAGE */
+
+
+
+
+
+/*SELLER SIGN UP*/
+.seller-signup {
+    margin-top: -20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #000;
+    /* background: url(../images/SignUp.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.seller-signup .form-control{
+    background-color: #DEDBD1;
+}
+
+
+
+
+
+
+
+/*SELLER SIGN UP*/
+
+
+
+
+
+
+
+
+/* USER LOGIN PAGE */
+.user-login {
+    margin-top: 10px;
+    background: url(../images/User_Login.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+
+}
+
+.user-login input[type=text], .user-login input[type=password] {
+    border: 1px solid rgb(37, 136, 230);
+}
+
+.user-login .forgot-password a {
+    color: #444;
+}
+
+.user-login .forgot-password a:hover {
+    color: #000;
+}
+
+
+.user-login a {
+    text-decoration: none;
+}
+
+
+.user-login img {
+    width: 100%;
+    padding-top: 100px;
+
+}
+
+
+.user-login .form {
+    color: #444;
+    /* background-color: #000; */
+    border-radius: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 2vw;
+}
+
+/* .user-login .form img {
+    width: 40%;
+    border-radius: 50%;
+    margin-top: -100px;
+} */
+/* USER LOGIN PAGE */
+
+
+
+/* USER SIGN UP PAGE */
+.user-signup {
+    margin-top: 20px;
+    color: #000;
+    /* background: url(../images/RegistrationSignUp.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.user-signup .form-control{
+    background-color: #DEDBD1;
+}
+/* USER SIGN UP PAGE */
+
+
+/* ABOUT PAGE */
+.about .background1 {
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.about .background1 img {
+    width: 100%;
+}
+
+.about .background1 .image {
+    position: relative;
+}
+
+.about .background1 .image .text {
+    position: absolute;
+    top: 6em;
+    right: 2em;
+}
+
+
+.about .background2 {
+    background-color: #fff;
+}
+
+.about .background2 img {
+    width: 100% ;
+}
+
+.about .background2 .image {
+    position: relative;
+}
+
+.about .background2 .image .text {
+    position: absolute;
+    top: 6em;
+    left: 2em;
+}
+
+
+.about .our-team .image {
+    border-radius: 50%;
+}
+
+.about .our-team .image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about .our-team .description {
+    text-align: center;
+}
+
+.about .our-team .social-icons a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+/* ABOUT PAGE */
+
+
+
+
+/* SHOPS */
+.shops-categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.shops-categories ul a {
+    text-decoration: none;
+    color: #444;
+}
+
+
+.shops-categories ul a:hover {
+    color: #111;
+}
+
+.shops-container {
+    padding-top: 20px;
+}
+
+
+.shops-item {
+    margin: 10px 0;
+}
+
+
+.shops-item .image img {
+    width: 100%;
+}
+
+.shops-item h5 {
+    text-align: center;
+}
+
+
+.popular-shops {
+    margin: 30px 0;
+}
+
+
+.popular-shops .popular-item .image img {
+    width: 100%;
+}
+
+.popular-shops .popular-item .popular-name h5 {
+    text-align: center;
+}
+
+
+/* SHOPS */
+
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+    background-color: rgb(173, 135, 116) ;
+    color: #fefefe;
+}
+
+
+.shop-profile img{
+    width: 60%;
+    text-align: center;
+}
+
+.single-product{
+    padding-top: 3%;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 2px solid #424141;
+}
+
+    /* SHOPS */
+/* singleProduct */
+.description{
+    padding-top: 10%;
+
+}
+
+.small-image-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-image-row img{
+    flex-basis: 100%;
+    cursor: pointer;
+}
+/* singleProduct */
+/* Cart */
+.cart-page{
+    
+    margin: 80px auto;
+}
+table{
+    padding-top: 100px;
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Cart */
+
+/* ContactUs */
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background: url(../images/about1.jpg);*/
+    /*background-size: cover;*/
+    font-family: 'Bebas Neue', cursive;
+    background-color: #fefefe;
+}
+
+
+.contact .container .row > div > div {
+    background-color: #fefefe;
+}
+/* ContactUs */
+
+
+
+/*USER SHOP*/
+.shop-category-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.shop-category-container ul > li {
+    display: inline-block;
+}
+
+
+.shops-container .shops-item-content {
+    border: 1px solid #777;
+    text-align: center;
+}
+
+.shops-container .shops-item-content .content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*USER SHOP*/
+
+
+/* Report */
+.report{
+    margin-top: 5%;
+    margin-bottom: 11%;
+}
+
+
+/* ForgotPassword */
+.EmailReset {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: url(../images/Reset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+    
+
+}
+
+
+.EmailReset .form-container{
+    display: flex;
+    height: 98vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmailReset .form-container .form-wrap{
+
+    width: 40%;
+    padding: 55px 60px;
+}
+
+.EmailReset .form-container .form-wrap h4{
+    text-align: center;
+    color: #080808;
+}
+
+.EmailReset .form-container .form-wrap .form-box{
+    display: flex;
+    justify-content: center;
+}
+
+.EmailReset .form-container .form-wrap .form-box input[type="text"]{
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #353535;
+    width: 100%;
+}
+
+.EmailReset .form-container .form-wrap .form-box input[type="submit"]{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #353535;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.OrderVerified {
+display: flex;
+height: 98vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+color:rgb(170, 56, 56);
+
+} 
+
+.OrderApproved {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: url(../images/OrderVerified.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+}
+    
+
+.EmailApproved {
+display: flex;
+height: 98vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+color:rgb(155, 34, 34)
+
+} 
+    
+.EmailVerified {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: url(../images/RegistrationVerified.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+}
+        
+
+.SellerEmailApproved {
+    display: flex;
+    height: 98vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color:rgb(223, 152, 0);
+} 
+    
+.SellerVerified {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: url(../images/SellerRegistrationVerified.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+}
+
+
+
+.UserThankyouRegistration {
+    display: flex;
+    height: 98vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color:rgb(170, 56, 56);
+
+} 
+            
+.UserThankyouu {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: url(../images/Thanks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.SellerThankyouRegistration {
+    display: flex;
+    height: 98vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color:rgb(170, 56, 56);
+
+} 
+
+.SellerThankyouu {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: url(../images/SellerThankyou.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+}
+
+
+.date{
+    margin-top: 5%;
+}
+
+
+/*--- banner--- */
+.index-intro {
+    background: url(../images/homepage.png);
+    color: #fff;
+    padding-top: 54%;
+    background-size: cover;
+}
+
+.text-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    ;
+}
+
+.index-intro .btn-warning{
+    margin: 20px;
+}
+
+.bannerImg{
+    width: 110%;
+    margin-bottom: -3%;  
+    
+}
+
+.index-intro1 {
+    background-image: linear-gradient(#8d5e45, #f0ebeb);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.text-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    ;
+}
+
+.index-intro .btn-warning{
+    margin: 20px;
+}
+
+.bannerImg{
+    width: 110%;
+    margin-bottom: -3%;  
+    
+}
+
+.bottom-img{
+    width: 100%;
+    background-image: linear-gradient(#8d5e45, #f0ebeb);
+}
+
+.top-img{
+    width: 100%;
+    background-image: linear-gradient(#8d5e45, #f0ebeb);
+}
+
+.OurServices{
+    padding-top: 5%;
+    /* text-align: center; */
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: black;
+}
+
+hr{
+    
+    height: 2px;
+    background: #dddddd;
+}
+.method{
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+.thumbnail{
+    padding-top: 30px;
+}
+
+
+.choices{
+    padding-top: 5%;
+    width: 100%;
+    position: relative;
+    
+}
+
+
+
+.choices h5{
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    right: 1;
+
+
+    box-sizing: content-box;
+    width: 50%;
+    padding: 1px
+    text-align: center;
+    color: seashell;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.Believe{
+    
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.thumbnail .prod img{
+    width: 100%;
+
+}
+
+.waytorent{
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: rgb(63, 63, 63);
+    padding-top: 15%;
+    padding-bottom: 5%;
+
+}
+.ending{
+    padding-top: 15%;
+}
+
+.browse img{
+    width: 70%;
+}
+
+.bannerImg1{
+    width: 95%;
+    margin-top: 2px;
+}
+
+.bannerImg2{
+    width: 85%;
+    margin-top: 38px;
+}
+
+.TAC{
+    color: #0a0909;
+
+}
+.TermsAndCondition{
+    margin-top: 8%;
+    
+}

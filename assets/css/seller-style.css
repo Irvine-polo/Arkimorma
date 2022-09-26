@@ -1,0 +1,19 @@
+body {
+    padding-top: 80px;
+    background-color: #fcfcfc;
+}
+
+.seller_pic img {
+    width: 100%;
+
+}
+
+
+.seller-profile {
+    font-family: 'Poppins' , 'san-serif';
+}
+
+
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+}

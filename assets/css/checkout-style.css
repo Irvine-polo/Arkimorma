@@ -1,0 +1,31 @@
+body{
+    color: rgb(75, 74, 74);
+    
+}
+.container {
+    margin-top: 50px;
+    
+}
+
+.container .productimg{
+    padding-top: 20px;
+}
+
+.container .productinfo{
+    font-family: 'Poppins' , 'san-serif';
+    margin-top: 80px;
+}
+
+ .to-rate {
+    /* margin-top: 80px; */
+    margin-bottom: 10%;
+}
+
+.to-rate .to-rate-img{
+    margin-top: 100px;
+}
+
+.to-rate .to-rate-productinfo{
+    font-family: 'Poppins' , 'san-serif';
+    margin-top: 25px;
+}
